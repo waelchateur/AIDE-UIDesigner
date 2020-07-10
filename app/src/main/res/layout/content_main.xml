@@ -1,0 +1,20 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <com.bielsoft.uidesigner.view.DesignerLayout
+        android:id="@+id/designer_layout"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:elevation="1.0dip"
+        android:padding="1.0dip"
+        android:scaleX="0.68"
+        android:scaleY="0.78"
+        android:background="@drawable/background_designer"/>
+
+</LinearLayout>
